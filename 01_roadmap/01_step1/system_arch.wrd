@@ -1,0 +1,10 @@
+@startuml
+
+entity "Linux_c" as Linux_c
+collections "Linux_s" as Linux_s
+
+Linux_c -> Linux_s: request
+Linux_s -> Linux_c: response
+
+
+@enduml
